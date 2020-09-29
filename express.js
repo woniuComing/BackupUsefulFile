@@ -1,5 +1,7 @@
 var express = require('express');
 var app = express();
+app.use(express.static(__dirname));
+
 app.all('*', function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     next();
@@ -12,5 +14,6 @@ app.get('/user_research', function(req, res) {
 })
 
 app.listen('8000', function() {
-    console.log(123456)
+    console.log(123456);
+    console.log(__dirname);
 });

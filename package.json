@@ -1,0 +1,22 @@
+{
+  "name": "backupusefulfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woniuComing/BackupUsefulFile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woniuComing/BackupUsefulFile/issues"
+  },
+  "homepage": "https://github.com/woniuComing/BackupUsefulFile#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
